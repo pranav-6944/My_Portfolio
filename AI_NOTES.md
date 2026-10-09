@@ -55,6 +55,7 @@ Assi_1_portfolio/
 - Lines 409–677: Hero section layout, ambient glow orbs, status indicator dot animation (`pulse-dot`), headline gradients, social icon links, terminal card with syntax highlighting, floating badges (`float` keyframe).
 - Lines 678–847: About Me bento grid layout (2-col large story card, academic card, core principles tag cloud, and 3-span metrics highlight row).
 - Lines 848–1001: Technical skills section across 4 engineering domains, animated progress tracks (`.progress-bar-fill`), and interactive tech pills (`.tech-tag`).
+- Lines 1002–1266: Featured projects showcase grid, mockup preview screens (browser bars, metric mockups, sorting bars), category pills, and code/demo action links.
 
 ---
 
@@ -63,11 +64,12 @@ Assi_1_portfolio/
 - [x] **Commit 2:** `feat(html): scaffold complete semantic HTML5 portfolio layout` (300bedf)
 - [x] **Commit 3:** `style(core): implement CSS custom properties, reset, typography, and base layout styles` (af97d2e)
 - [x] **Commit 4:** `style(nav-hero): add sticky header navigation and hero intro with terminal card` (aa54bc0)
-- [x] **Commit 5:** `style(about-skills): design about me bento grid and technical skills progress indicators`
-- [ ] **Commit 6:** `style(projects): style featured projects grid, mockup previews, and link interactions`
+- [x] **Commit 5:** `style(about-skills): design about me bento grid and technical skills progress indicators` (558e9bb)
+- [x] **Commit 6:** `style(projects): style featured projects grid, mockup previews, and link interactions`
 - [ ] **Commit 7:** `style(contact-footer): style interactive contact form, contact cards, and site footer`
 - [ ] **Commit 8:** `feat(responsive): add mobile hamburger navigation, media queries, and accessibility features`
 - [ ] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission`
+
 
 
 
