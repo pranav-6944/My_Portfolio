@@ -37,6 +37,16 @@ Assi_1_portfolio/
 - **CSS Grid & Flexbox:** Auto-fit project cards (`repeat(auto-fit, minmax(320px, 1fr))`), flex alignment for nav, skills, and contact cards.
 - **Accessibility:** `prefers-reduced-motion` media query, `:focus-visible` outline rings, semantic `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.
 
+## HTML Structure Line Map (`index.html`)
+- Lines 1–28: Header metadata, SEO tags, OpenGraph, font imports (`Inter`, `JetBrains Mono`).
+- Lines 32–61: Accessible header & nav with pure CSS checkbox toggle.
+- Lines 66–173: Hero section, status badge, CTA buttons, mock terminal card.
+- Lines 176–253: About section with 4-card bento grid (Story, Education, Principles, Metrics).
+- Lines 256–477: Technical Skills matrix across 4 domains with progress indicators and tech pills.
+- Lines 480–692: Featured Projects showcase (DevPulse, ShopSphere, NeuroTask, AlgoVisualizer).
+- Lines 695–812: Contact information cards and accessible contact form.
+- Lines 815–873: Semantic footer with back-to-top navigation and copyright.
+
 ---
 
 ## Development Log & Commits
