@@ -71,8 +71,9 @@ Assi_1_portfolio/
 - [x] **Commit 5:** `style(about-skills): design about me bento grid and technical skills progress indicators` (558e9bb)
 - [x] **Commit 6:** `style(projects): style featured projects grid, mockup previews, and link interactions` (f052d54)
 - [x] **Commit 7:** `style(contact-footer): style interactive contact form, contact cards, and site footer` (15a8f8e)
-- [x] **Commit 8:** `feat(responsive): add mobile hamburger navigation, media queries, and accessibility features`
-- [ ] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission`
+- [x] **Commit 8:** `feat(responsive): add mobile hamburger navigation, media queries, and accessibility features` (a563c84)
+- [x] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission`
+
 
 
 
