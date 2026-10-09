@@ -112,9 +112,9 @@ Assi_1_portfolio/
 - [x] **Commit 6:** `style(projects): style featured projects grid, mockup previews, and link interactions` (f052d54)
 - [x] **Commit 7:** `style(contact-footer): style interactive contact form, contact cards, and site footer` (15a8f8e)
 - [x] **Commit 8:** `feat(responsive): add mobile hamburger navigation, media queries, and accessibility features` (a563c84)
-- [x] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission` (3401579)
-- [x] **Commit 10:** `feat(design): implement master claymorphism redesign with 3d tactile styling` (9a63387)
-- [x] **Commit 11:** `feat(profile): integrate real academic background, contact channels, and GitHub projects` (Pending)
+- [x] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission` (5f6c517)
+- [x] **Commit 10:** `style(claymorphism): overhaul portfolio design to tactile 3D claymorphic aesthetic` (9a63387)
+- [x] **Commit 11:** `feat(profile): integrate real academic background, contact channels, and GitHub projects` (77e07d9)
 
 
 
