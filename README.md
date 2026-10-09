@@ -58,19 +58,21 @@ This project was built for **College MDM (Multimedia / Web Development) Assignme
 
 ---
 
-## 🎨 UI/UX Design System (UI/UX Pro Max)
+## 🎨 UI/UX Design System (Master Claymorphism)
 
 | Design Token | Specification | Purpose |
 | :--- | :--- | :--- |
-| **Theme** | Dark OLED / Midnight Slate | Reduces eye strain, modern developer aesthetic |
-| **Primary Background** | `#0A0F1D` | Deep midnight canvas |
-| **Surface Elevate** | `#1E293B` / `#243248` | Card elevation and visual hierarchy |
-| **Accent Primary** | `#06B6D4` (Electric Cyan) | Focus indicators, icons, and CTA highlights |
-| **Accent Secondary** | `#10B981` (Emerald Green) | Availability status and success indicators |
-| **Typography (Sans)** | `'Inter', sans-serif` | Highly legible modern geometric sans-serif |
-| **Typography (Mono)** | `'JetBrains Mono', monospace` | Code snippets, terminal card, tags |
-| **Transitions** | `0.25s cubic-bezier(0.4, 0, 0.2, 1)` | Butter-smooth micro-interactions |
-| **Accessibility** | `:focus-visible` & `prefers-reduced-motion` | Full keyboard and screen-reader friendliness |
+| **Theme** | Master Claymorphism | Soft 3D, tactile surfaces, toy-like plumpness & premium feel |
+| **Canvas Background** | `#EEF4FA` (Soft Slate) | Warm, airy, glare-free canvas with floating clay blobs |
+| **Clay Slabs** | `#FFFFFF` with 4-way shadows | Chunky floating 3D cards with inner bevels & outer drops |
+| **Debossed Insets** | `inset 4px 4px 8px...` | Carved grooves for inputs & skill progress tracks |
+| **Accent Primary** | `#6366F1` (Royal Indigo) | 3D clay buttons, brand marks, and active states |
+| **Accent Sky** | `#0EA5E9` (Sky Blue) | Floating clay spheres, tags, and category highlights |
+| **Accent Emerald** | `#10B981` (Mint Clay) | Availability status pill and live preview badges |
+| **Typography (Sans)** | `'Plus Jakarta Sans', sans-serif` | Friendly, geometric, ultra-crisp modern letterforms |
+| **Typography (Mono)** | `'JetBrains Mono', monospace` | Code snippets, terminal card, tech tags |
+| **Tactile Motion** | `cubic-bezier(0.34, 1.56, 0.64, 1)` | Playful, bouncy physical clay spring transitions |
+| **Accessibility** | `:focus-visible` & `prefers-reduced-motion` | WCAG AAA contrast (7:1+) & keyboard accessibility |
 
 ---
 

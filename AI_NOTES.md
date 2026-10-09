@@ -5,7 +5,8 @@
 - **Author:** Pranav Lamkhade (GitHub: pranav-6944)
 - **Repository:** https://github.com/pranav-6944/My_Portfolio
 - **Tech Stack:** Pure HTML5 and Vanilla CSS3 (Strict constraint: No JavaScript required/used)
-- **Theme/Design Direction:** Deep Slate/Midnight Dark Mode (`#0B0F19`, `#0F172A`, `#1E293B`), Emerald/Cyan Accents (`#10B981`, `#06B6D4`), Google Fonts (`Inter`, `JetBrains Mono`), Glassmorphism, Micro-interactions.
+- **Theme/Design Direction:** Master Claymorphism (Soft 3D, tactile clay surfaces, porcelain white cards `#FFFFFF` on soft slate canvas `#EEF4FA`, vibrant 3D accents in Indigo `#6366F1`, Sky `#0EA5E9`, Mint `#10B981`, Rose `#F43F5E`).
+- **Typography:** `Plus Jakarta Sans` (primary body & headings), `Inter` (geometric fallback), `JetBrains Mono` (code & tags).
 
 ---
 
@@ -14,7 +15,17 @@
 - [x] Mandatory sections: Introduction / Hero, About Me, Skills, Projects, Contact Information, Footer.
 - [x] Responsive layout with mobile-first CSS media queries (tested at 375px, 768px, 1024px, 1440px).
 - [x] Multiple meaningful git commits demonstrating step-by-step development progression for evaluation.
-- [x] UI/UX Pro Max guidelines applied: semantic HTML5, accessible contrast (WCAG AA 4.5:1+), visible focus rings (`:focus-visible`), inline SVGs (no emoji icons), smooth CSS transitions.
+- [x] UI/UX Pro Max guidelines applied: semantic HTML5, accessible contrast (WCAG AAA 7:1+), visible focus rings (`:focus-visible`), inline SVGs (no emoji icons), smooth CSS transitions.
+
+---
+
+## Claymorphism Signature Shadow Formula
+- **Floating Clay Slab (Outer Drop + Inner Specular + Inner Bevel):**
+  `14px 18px 36px rgba(148, 163, 184, 0.35), -10px -10px 24px rgba(255, 255, 255, 0.95), inset 3px 3px 6px rgba(255, 255, 255, 0.9), inset -4px -4px 10px rgba(148, 163, 184, 0.2)`
+- **Carved / Debossed Clay Inset (Inputs & Progress Tracks):**
+  `inset 4px 4px 8px rgba(148, 163, 184, 0.28), inset -3px -3px 6px rgba(255, 255, 255, 0.95)`
+- **Puffy Tactile Button (3D Pop + Squish Active State):**
+  `8px 14px 26px rgba(99, 102, 241, 0.4), inset 2px 2px 5px rgba(255, 255, 255, 0.65), inset -3px -3px 8px rgba(49, 46, 129, 0.45)` with active press squish `translateY(2px) scale(0.98)`
 
 ---
 
