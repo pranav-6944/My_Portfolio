@@ -47,15 +47,21 @@ Assi_1_portfolio/
 - Lines 695–812: Contact information cards and accessible contact form.
 - Lines 815–873: Semantic footer with back-to-top navigation and copyright.
 
+## CSS Architecture Map (`style.css`)
+- Lines 8–82: Design tokens & custom properties (`:root` - colors, gradients, typography, spacing, shadows).
+- Lines 83–170: CSS reset, global base elements, accessible `:focus-visible` rings and skip-to-content.
+- Lines 171–297: Layout containers, section headers, gradient text, button components (`.btn`, `.btn-primary`, `.btn-secondary`).
+
 ---
 
 ## Development Log & Commits
-1. Commit 1: Project setup & initial documentation (`AI_NOTES.md`).
-2. Commit 2: Semantic HTML5 structure scaffolding (`index.html`).
-3. Commit 3: CSS design tokens, typography, CSS reset, and foundational utilities (`style.css`).
-4. Commit 4: Header navigation and hero section styling.
-5. Commit 5: About section and skills matrix styling.
-6. Commit 6: Featured projects showcase grid and hover interactions.
-7. Commit 7: Contact information, interactive form, and footer styling.
-8. Commit 8: Responsive layouts, CSS-only mobile drawer, and accessibility tokens.
-9. Commit 9: Final polishing, comprehensive README documentation, and submission readiness.
+- [x] **Commit 1:** `docs: initialize project knowledge base and assignment plan` (601c128)
+- [x] **Commit 2:** `feat(html): scaffold complete semantic HTML5 portfolio layout` (300bedf)
+- [ ] **Commit 3:** `style(core): implement CSS custom properties, reset, typography, and base layout styles`
+- [ ] **Commit 4:** `style(nav-hero): add sticky header navigation and hero intro with terminal card`
+- [ ] **Commit 5:** `style(about-skills): design about me bento grid and technical skills progress indicators`
+- [ ] **Commit 6:** `style(projects): style featured projects grid, mockup previews, and link interactions`
+- [ ] **Commit 7:** `style(contact-footer): style interactive contact form, contact cards, and site footer`
+- [ ] **Commit 8:** `feat(responsive): add mobile hamburger navigation, media queries, and accessibility features`
+- [ ] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission`
+
