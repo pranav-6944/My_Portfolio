@@ -115,6 +115,13 @@ Assi_1_portfolio/
 - [x] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission` (5f6c517)
 - [x] **Commit 10:** `style(claymorphism): overhaul portfolio design to tactile 3D claymorphic aesthetic` (9a63387)
 - [x] **Commit 11:** `feat(profile): integrate real academic background, contact channels, and GitHub projects` (77e07d9)
+- [x] **Commit 12:** `ci(pages): configure automated GitHub Pages deployment workflow and live URL` (Pending)
+
+## Live Deployment Details
+- **Live Production URL:** https://pranav-6944.github.io/My_Portfolio/
+- **Deployment Strategy:** GitHub Actions automated static deployment pipeline (`.github/workflows/deploy.yml`) + Direct branch deployment fallback (`main` / root).
+- **Settings Path:** `https://github.com/pranav-6944/My_Portfolio/settings/pages`
+
 
 
 

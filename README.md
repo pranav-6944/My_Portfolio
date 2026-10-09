@@ -6,7 +6,8 @@ This project was built for **College MDM (Multimedia / Web Development) Assignme
 
 ---
 
-## 🌐 Live Repository & Contact Channels
+## 🌐 Live Website & Contact Channels
+- **Live Portfolio (GitHub Pages):** [https://pranav-6944.github.io/My_Portfolio/](https://pranav-6944.github.io/My_Portfolio/)
 - **GitHub Repository:** [https://github.com/pranav-6944/My_Portfolio](https://github.com/pranav-6944/My_Portfolio)
 - **Author:** Pranav Lamkhade
 - **Title:** Full-Stack Developer & Data Analytics Student
