@@ -58,6 +58,8 @@ Assi_1_portfolio/
 - Lines 1002–1266: Featured projects showcase grid, mockup preview screens (browser bars, metric mockups, sorting bars), category pills, and code/demo action links.
 - Lines 1267–1447: Contact information cards (Email, GitHub, Location, Availability) and interactive CSS form with focus glow states.
 - Lines 1448–1541: Site footer layout with branding, directory links, social anchors, and pure CSS back-to-top button.
+- Lines 1542–1755: Responsive media queries (`@media (max-width: 1024px)`, `(max-width: 768px)`, `(max-width: 480px)`), pure CSS mobile navigation drawer via `:checked` state with animated hamburger transform.
+- Lines 1756–1779: Accessibility compliance with `@media (prefers-reduced-motion: reduce)`.
 
 ---
 
@@ -68,9 +70,10 @@ Assi_1_portfolio/
 - [x] **Commit 4:** `style(nav-hero): add sticky header navigation and hero intro with terminal card` (aa54bc0)
 - [x] **Commit 5:** `style(about-skills): design about me bento grid and technical skills progress indicators` (558e9bb)
 - [x] **Commit 6:** `style(projects): style featured projects grid, mockup previews, and link interactions` (f052d54)
-- [x] **Commit 7:** `style(contact-footer): style interactive contact form, contact cards, and site footer`
-- [ ] **Commit 8:** `feat(responsive): add mobile hamburger navigation, media queries, and accessibility features`
+- [x] **Commit 7:** `style(contact-footer): style interactive contact form, contact cards, and site footer` (15a8f8e)
+- [x] **Commit 8:** `feat(responsive): add mobile hamburger navigation, media queries, and accessibility features`
 - [ ] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission`
+
 
 
 

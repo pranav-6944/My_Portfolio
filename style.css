@@ -1539,3 +1539,241 @@ button, input, textarea {
   transform: translateY(-2px);
 }
 
+/* --------------------------------------------------------------------------
+   11. RESPONSIVE MEDIA QUERIES
+   -------------------------------------------------------------------------- */
+
+/* Tablet & Smaller Desktops (<= 1024px) */
+@media (max-width: 1024px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .hero-bio {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-socials {
+    justify-content: center;
+  }
+
+  .hero-visual {
+    max-width: 580px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .about-bento-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bento-card-large {
+    grid-column: span 2;
+  }
+
+  .bento-card-metrics {
+    grid-column: span 2;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile & Small Tablets (<= 768px) */
+@media (max-width: 768px) {
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .section-title {
+    font-size: 1.875rem;
+  }
+
+  .hero-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .hero-title {
+    font-size: 2.35rem;
+  }
+
+  /* Pure CSS Hamburger Drawer Navigation */
+  .nav-toggle-label {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 4.5rem;
+    left: 0;
+    right: 0;
+    background: rgba(10, 15, 29, 0.98);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border-medium);
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+    transform: translateY(-120%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all var(--transition-normal);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .nav-toggle-checkbox:checked ~ .nav-menu {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Animate Hamburger Bars when Checked */
+  .nav-toggle-checkbox:checked + .nav-toggle-label .hamburger-bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .nav-toggle-checkbox:checked + .nav-toggle-label .hamburger-bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle-checkbox:checked + .nav-toggle-label .hamburger-bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    gap: 1.25rem;
+  }
+
+  .nav-actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-cta {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  /* Bento Layout on Mobile */
+  .about-bento-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bento-card-large,
+  .bento-card-metrics {
+    grid-column: span 1;
+  }
+
+  .metrics-row {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .floating-chip {
+    display: none;
+  }
+
+  .form-group-row {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+
+/* Small Devices (<= 480px) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .form-wrapper-card {
+    padding: 1.5rem;
+  }
+
+  .bento-card {
+    padding: 1.5rem;
+  }
+
+  .skill-category-card {
+    padding: 1.5rem;
+  }
+
+  .project-details {
+    padding: 1.5rem;
+  }
+
+  .code-body {
+    font-size: 0.75rem;
+    padding: 1rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   12. ACCESSIBILITY & REDUCED MOTION
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .status-dot {
+    animation: none;
+  }
+
+  .floating-chip {
+    animation: none;
+  }
+}
+
+
+
