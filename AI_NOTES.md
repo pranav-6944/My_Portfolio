@@ -116,6 +116,7 @@ Assi_1_portfolio/
 - [x] **Commit 10:** `style(claymorphism): overhaul portfolio design to tactile 3D claymorphic aesthetic` (9a63387)
 - [x] **Commit 11:** `feat(profile): integrate real academic background, contact channels, and GitHub projects` (77e07d9)
 - [x] **Commit 12:** `ci(pages): configure automated GitHub Pages deployment workflow and live URL` (574ccfa)
+- [x] **Commit 13:** `docs(profile): store permanent user profile and agent context rules` (2757329)
 
 ## Live Deployment Details
 - **Live Production URL:** https://pranav-6944.github.io/My_Portfolio/
