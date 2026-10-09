@@ -41,36 +41,65 @@ Assi_1_portfolio/
 
 ---
 
+## Real Profile & Academic Knowledge
+- **Full Name:** Pranav Lamkhade
+- **Tagline / Exact Title:** Full-Stack Developer & Data Analytics Student
+- **College / University:** MIT Academy of Engineering (MITAOE), SPPU Affiliated
+- **Degree & Branch:** B.Tech Computer Engineering & Data Science
+- **Current Standing:** 3rd Year
+- **Location:** Alandi, Pune, Maharashtra, India
+- **Public Email:** `pranavlamkhade21@gmail.com`
+- **Phone:** `+91 7276356052`
+- **LinkedIn:** [linkedin.com/in/pranav-lamkhade-6b48bb372](https://www.linkedin.com/in/pranav-lamkhade-6b48bb372)
+- **GitHub:** [github.com/pranav-6944](https://github.com/pranav-6944)
+
+## Real Featured GitHub Projects
+1. **Vakratunda-Misal:** Restaurant platform communicating authentic Maharashtrian identity, driving customer visits, phone orders, directions, and ordering.
+   - *URL:* https://github.com/pranav-6944/Vakratunda-Misal
+   - *Stack:* Python, HTML, CSS, JavaScript, SQL
+2. **ContextOS:** Local-first RAG knowledge platform enabling users to chat with documents using a locally hosted LLM, with semantic retrieval, source citations, and pipeline visualization.
+   - *URL:* https://github.com/pranav-6944/ContextOS
+   - *Stack:* Python, Local LLM, RAG Pipeline, Semantic Search, Interactive UI
+3. **E-Commerce-Starter-Template:** Clean, production-ready starter template for building modern e-commerce web applications.
+   - *URL:* https://github.com/pranav-6944/E-Commerce-Starter-Template
+   - *Stack:* HTML5, CSS3, JavaScript, Responsive UI, E-Commerce Workflows
+4. **Student-Career-Skill-Recommendation-System:** AI-powered system that analyzes student profiles, predicts optimal career paths, and recommends personalized learning pathways.
+   - *URL:* https://github.com/pranav-6944/Student-Career-Skill-Recommendation-System-
+   - *Stack:* Python, Machine Learning, Data Analytics, Career AI, Web UI
+
+---
+
 ## Important Keywords & References
-- **CSS Custom Properties:** Defined in `:root` for colors, typography, spacing, border-radius, shadows, transitions.
+- **Claymorphism Physics:** 4-tier shadow stack:
+  `14px 18px 36px rgba(148, 163, 184, 0.35), -10px -10px 24px rgba(255, 255, 255, 0.95), inset 3px 3px 6px rgba(255, 255, 255, 0.9), inset -4px -4px 10px rgba(148, 163, 184, 0.2)`
+- **Carved Debossed Insets:** `inset 4px 4px 8px rgba(148, 163, 184, 0.28), inset -3px -3px 6px rgba(255, 255, 255, 0.95)`
 - **Pure CSS Mobile Navigation:** Implemented using CSS checkbox hack (`#nav-toggle:checked ~ .nav-menu`) avoiding JavaScript.
-- **Glassmorphism:** `backdrop-filter: blur(12px)`, semi-transparent background `rgba(30, 41, 59, 0.7)`, subtle border `rgba(255, 255, 255, 0.08)`.
-- **CSS Grid & Flexbox:** Auto-fit project cards (`repeat(auto-fit, minmax(320px, 1fr))`), flex alignment for nav, skills, and contact cards.
+- **Spring Transition:** `cubic-bezier(0.34, 1.56, 0.64, 1)` for squishy tactile feedback.
 - **Accessibility:** `prefers-reduced-motion` media query, `:focus-visible` outline rings, semantic `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.
 
-## HTML Structure Line Map (`index.html`)
-- Lines 1–28: Header metadata, SEO tags, OpenGraph, font imports (`Inter`, `JetBrains Mono`).
-- Lines 32–61: Accessible header & nav with pure CSS checkbox toggle.
-- Lines 66–173: Hero section, status badge, CTA buttons, mock terminal card.
-- Lines 176–253: About section with 4-card bento grid (Story, Education, Principles, Metrics).
-- Lines 256–477: Technical Skills matrix across 4 domains with progress indicators and tech pills.
-- Lines 480–692: Featured Projects showcase (DevPulse, ShopSphere, NeuroTask, AlgoVisualizer).
-- Lines 695–812: Contact information cards and accessible contact form.
-- Lines 815–873: Semantic footer with back-to-top navigation and copyright.
+## HTML Structure Line Map (`index.html`) — 1075 lines total
+- Lines 1–28: Header metadata, SEO tags, OpenGraph, font imports (`Plus Jakarta Sans`, `Inter`, `JetBrains Mono`).
+- Lines 32–61: Accessible header & nav with pure CSS checkbox toggle (`#nav-toggle`).
+- Lines 65–186: Hero section, status badge, CTA buttons, mock terminal card (`pranav.config.ts`), floating metric badges, and quick social links (GitHub, LinkedIn, Email, Phone).
+- Lines 188–275: About section with 4-card clay bento grid (My Journey, Academic Foundation at MITAOE SPPU, Core Principles, Metrics).
+- Lines 278–605: Technical Skills matrix across 4 domains (Languages: Python, C++, JS, SQL; Frontend: HTML, CSS, React, Tailwind; Backend: Node, Express, MySQL, Postgres, Mongo; Tools/Core CS: Git, VS Code, DSA, DBMS, AI/ML, Data Analytics).
+- Lines 608–851: Featured Projects showcase (Vakratunda-Misal, ContextOS, E-Commerce-Starter-Template, Student-Career-Skill-Recommendation-System).
+- Lines 854–974: Contact information cards (Email, Phone, LinkedIn, GitHub, Location, Work Status) and accessible debossed clay contact form.
+- Lines 978–1061: Semantic footer with brand tagline, directory links, social links (GitHub, LinkedIn, Email, Phone), and back-to-top navigation.
 
-## CSS Architecture Map (`style.css`)
-- Lines 8–82: Design tokens & custom properties (`:root` - colors, gradients, typography, spacing, shadows).
-- Lines 83–170: CSS reset, global base elements, accessible `:focus-visible` rings and skip-to-content.
-- Lines 171–297: Layout containers, section headers, gradient text, button components (`.btn`, `.btn-primary`, `.btn-secondary`).
-- Lines 298–408: Sticky navigation header, glassmorphism surface, brand logo, animated hover underline links, mobile toggle markup.
-- Lines 409–677: Hero section layout, ambient glow orbs, status indicator dot animation (`pulse-dot`), headline gradients, social icon links, terminal card with syntax highlighting, floating badges (`float` keyframe).
-- Lines 678–847: About Me bento grid layout (2-col large story card, academic card, core principles tag cloud, and 3-span metrics highlight row).
-- Lines 848–1001: Technical skills section across 4 engineering domains, animated progress tracks (`.progress-bar-fill`), and interactive tech pills (`.tech-tag`).
-- Lines 1002–1266: Featured projects showcase grid, mockup preview screens (browser bars, metric mockups, sorting bars), category pills, and code/demo action links.
-- Lines 1267–1447: Contact information cards (Email, GitHub, Location, Availability) and interactive CSS form with focus glow states.
-- Lines 1448–1541: Site footer layout with branding, directory links, social anchors, and pure CSS back-to-top button.
-- Lines 1542–1755: Responsive media queries (`@media (max-width: 1024px)`, `(max-width: 768px)`, `(max-width: 480px)`), pure CSS mobile navigation drawer via `:checked` state with animated hamburger transform.
-- Lines 1756–1779: Accessibility compliance with `@media (prefers-reduced-motion: reduce)`.
+## CSS Architecture Map (`style.css`) — 1979 lines total
+- Lines 11–130: Master Claymorphism design tokens & custom properties (`:root` - colors, clay shadows, gradients, typography, radius).
+- Lines 131–227: CSS reset, global base elements, accessible `:focus-visible` rings and skip-to-content.
+- Lines 228–395: Layout containers, section headers, gradient text, 3D clay button components (`.btn-primary`, `.btn-secondary`).
+- Lines 396–536: Sticky navigation header, porcelain clay surface, brand mark, hover animations, mobile toggle checkbox hack.
+- Lines 537–806: Hero section layout, ambient clay spheres, status pill dot animation (`pulse-dot`), terminal card with syntax highlighting, floating badges (`float` keyframe).
+- Lines 807–999: About Me clay bento grid layout (large story card, academic card, core principles tag cloud, and metrics highlight row).
+- Lines 1000–1218: Technical skills section across 4 domains, debossed meter tracks (`.progress-bar-track`), fill animations (`.progress-bar-fill`), and tactile tech pills (`.tech-tag`).
+- Lines 1219–1441: Featured projects showcase grid, mockup preview browser screens, category badges, and clay action link buttons.
+- Lines 1442–1620: Contact information cards (Email, Phone, LinkedIn, GitHub, Location, Availability) and carved debossed contact form inputs.
+- Lines 1621–1726: Clay site footer layout with branding, directory links, social anchors, and pure CSS back-to-top button.
+- Lines 1727–1955: Responsive media queries (`@media (max-width: 1024px)`, `(max-width: 768px)`, `(max-width: 480px)`), sliding mobile drawer menu with animated hamburger transforms.
+- Lines 1956–1979: Accessibility compliance with `@media (prefers-reduced-motion: reduce)`.
 
 ---
 
@@ -83,7 +112,9 @@ Assi_1_portfolio/
 - [x] **Commit 6:** `style(projects): style featured projects grid, mockup previews, and link interactions` (f052d54)
 - [x] **Commit 7:** `style(contact-footer): style interactive contact form, contact cards, and site footer` (15a8f8e)
 - [x] **Commit 8:** `feat(responsive): add mobile hamburger navigation, media queries, and accessibility features` (a563c84)
-- [x] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission`
+- [x] **Commit 9:** `docs: add comprehensive README.md and update AI_NOTES.md for assignment submission` (3401579)
+- [x] **Commit 10:** `feat(design): implement master claymorphism redesign with 3d tactile styling` (9a63387)
+- [x] **Commit 11:** `feat(profile): integrate real academic background, contact channels, and GitHub projects` (Pending)
 
 
 
